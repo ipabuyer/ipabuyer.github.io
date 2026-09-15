@@ -10,9 +10,7 @@ hero:
 
 ## 如何下载
 
-<a href="https://apps.microsoft.com/detail/9MSXMXD5520X" target="_blank">
-  <img src="https://get.microsoft.com/images/zh-cn%20dark.svg" alt="从 Microsoft 获取" />
-</a>
+<DownloadLinks microsoft-store="9MSXMXD5520X" />
 
 ## 软件截图
 
