@@ -1,0 +1,18 @@
+{
+  "name": "ipabuyer.github.io",
+  "version": "2026.9.15.0",
+  "author": {
+    "name": "ipabuyer",
+    "url": "https://github.com/ipabuyer/"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
