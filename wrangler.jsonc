@@ -1,0 +1,25 @@
+{
+    "name": "ipabuyer",
+    "compatibility_date": "2026-08-04",
+    "assets": {
+        "directory": ".vitepress/dist/",
+        "not_found_handling": "404-page"
+    },
+    "workers_dev": false,
+    "preview_urls": false,
+    "routes": [
+        {
+            "pattern": "ipa.blazesnow.com",
+            "custom_domain": true
+        }
+    ],
+    "observability": {
+        "logs": {
+            "enabled": false,
+            "invocation_logs": false
+        },
+        "traces": {
+            "enabled": false
+        }
+    }
+}
