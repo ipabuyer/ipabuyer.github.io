@@ -100,6 +100,11 @@ export default defineConfig({
                 activeMatch: '/faq'
             },
             {
+                text: '开发者团队',
+                link: '/team',
+                activeMatch: '/team'
+            },
+            {
                 text: '更新日志',
                 link: '/changelog',
                 activeMatch: '/changelog'
