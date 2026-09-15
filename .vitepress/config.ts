@@ -105,6 +105,9 @@ export default defineConfig({
                 activeMatch: '/changelog'
             }
         ],
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/ipabuyer/ipabuyer' },
+        ],
         //主页页脚
         footer: {
             message: '软件使用 <a href="https://www.gnu.org/licenses/agpl-3.0.html" target="_blank">GNU AGPL v3.0</a> 协议。',
