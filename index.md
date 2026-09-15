@@ -1,11 +1,11 @@
 ---
 titleTemplate: 'IPAbuyer'
-description: '刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！'
+description: '使用 IPAbuyer，快速购买 AppStore 中的应用！'
 layout: home
 
 hero:
     name: "IPAbuyer"
-    tagline: "刚刚拿到iPhone，受折磨于反复按下锁屏键购入App；还是担心小众优质App被下架？使用IPAbuyer，将App统统收入囊中！"
+    tagline: "使用 IPAbuyer，快速购买 AppStore 中的应用！"
 ---
 
 ## 如何下载
