@@ -15,6 +15,11 @@ export const shared = defineConfig({
             { rel: 'icon', href: '/logo.ico' }
         ]
     ],
+    //markdown配置
+    markdown: {
+        //显示行号
+        lineNumbers: true,
+    },
     //主题配置
     themeConfig: {
         //左上角logo
