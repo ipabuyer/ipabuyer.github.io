@@ -33,11 +33,13 @@ const presetLinks = computed<DownloadLink[]>(() => {
         const href = /^https?:\/\//i.test(props.microsoftStore)
             ? props.microsoftStore
             : `https://apps.microsoft.com/detail/${props.microsoftStore}`
+        //按界面语言选择徽章素材：中文用原版，英文用 .en 版
+        const suffix = lang.value.startsWith('zh') ? '' : '.en'
         items.push({
             label: 'Microsoft Store',
             href,
-            image: '/MicrosoftStoreDark.svg',
-            imageDark: '/MicrosoftStoreLight.svg',
+            image: `/downloadlink/dark${suffix}.svg`,
+            imageDark: `/downloadlink/light${suffix}.svg`,
             alt: lang.value.startsWith('zh') ? '从 Microsoft 获取' : 'Get it from Microsoft'
         })
     }
