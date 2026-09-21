@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useData } from 'vitepress'
 import { VPLink } from 'vitepress/theme'
 
 interface DownloadLink {
@@ -24,6 +25,8 @@ const props = defineProps<{
     microsoftStore?: string
 }>()
 
+const { lang } = useData()
+
 const presetLinks = computed<DownloadLink[]>(() => {
     const items: DownloadLink[] = []
     if (props.microsoftStore) {
@@ -35,7 +38,7 @@ const presetLinks = computed<DownloadLink[]>(() => {
             href,
             image: '/MicrosoftStoreDark.svg',
             imageDark: '/MicrosoftStoreLight.svg',
-            alt: '从 Microsoft 获取'
+            alt: lang.value.startsWith('zh') ? '从 Microsoft 获取' : 'Get it from Microsoft'
         })
     }
     return items
