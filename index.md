@@ -14,7 +14,7 @@ hero:
 
 ## 软件截图
 
-![ipabuyer](/ipabuyer.png)
+![IPAbuyer 软件截图](/asset/home.zh-hans.png)
 
 ## 致谢
 
