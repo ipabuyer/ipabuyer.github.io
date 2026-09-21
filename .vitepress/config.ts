@@ -128,9 +128,8 @@ export default defineConfig({
                     },
                     {
                         text: 'Changelog',
-                        //更新日志不翻译，直接使用中文页
-                        link: '/changelog',
-                        activeMatch: '/changelog'
+                        link: '/en/changelog',
+                        activeMatch: '/en/changelog'
                     }
                 ],
                 notFound: {
